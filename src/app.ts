@@ -1,4 +1,5 @@
 import express, {Express, Request, Response} from "express";
+import productRoutes from "./routes/product.routes"
 
 // 1. Initialize the express app
 const app: Express = express();
@@ -7,10 +8,14 @@ const app: Express = express();
 // instruct to parse the request payload data to be converted to JSON format
 app.use(express.json());
 
+app.use("/api/products", productRoutes)
+
 // 3. Define a simple HTTP GET request
+/*
 app.get('/', (req: Request, res: Response) => {
     console.log(req.body);
     res.send("Hello World shachiru!");
 });
+*/
 
 export default app;
