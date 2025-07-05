@@ -11,7 +11,7 @@ export const saveProduct = (product: Product): Product => {    // passing the pr
     return product;
 }
 
-export const productById = (id: number): Product | undefined => {  // id is a number type
+export const getProductById = (id: number): Product | undefined => {  // id is a number type
     return productList.find(product => product.id === id);
 }
 
@@ -32,4 +32,11 @@ export const deleteProduct = (id: number) => {
         productList.splice(index, 1);    // delete product by index
         return true;
     }
+}
+
+export const validateProduct = (product: Product) => {
+    if (!product.id || !product.name || !product.price || !product.currency || !product.image) {
+        return "All fields are required";
+    }
+    return null;
 }
