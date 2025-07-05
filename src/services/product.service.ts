@@ -24,7 +24,7 @@ export const updateProduct = (id: number, data: Product) => {
     return product;
 }
 
-const deleteProduct = (id: number) => {
+export const deleteProduct = (id: number) => {
     const index = productList.findIndex(product => product.id === id);
     if (index === -1) {
         return false;   // the product isn't found because the index is -1

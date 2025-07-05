@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="product controller and routes package implements">
-      <change afterPath="$PROJECT_DIR$/src/db/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/product.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="product service package implement , crud" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/GDSE-Modules/Advanced API Development/GitClones",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "ts.external.directory.path": "D:\\GDSE-Modules\\Rapid Application Development\\tech-store-backend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GDSE-Modules/Advanced API Development/GitClones&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\GDSE-Modules\\Rapid Application Development\\tech-store-backend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GDSE-Modules\Rapid Application Development\tech-store-backend\src" />
@@ -102,7 +98,7 @@
       <workItem from="1751685520771" duration="274000" />
       <workItem from="1751685848877" duration="3650000" />
       <workItem from="1751689568912" duration="348000" />
-      <workItem from="1751689940658" duration="4070000" />
+      <workItem from="1751689940658" duration="6188000" />
     </task>
     <task id="LOCAL-00001" summary="product controller and routes package implements">
       <option name="closed" value="true" />
@@ -112,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751693866625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="product service package implement , crud">
+      <option name="closed" value="true" />
+      <created>1751696668067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751696668067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="product controller and routes package implements" />
-    <option name="LAST_COMMIT_MESSAGE" value="product controller and routes package implements" />
+    <MESSAGE value="product service package implement , crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="product service package implement , crud" />
   </component>
 </project>

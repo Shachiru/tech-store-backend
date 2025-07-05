@@ -1,0 +1,125 @@
+Index: src/model/product.model.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/model/product.model.ts b/src/model/product.model.ts
+new file mode 100644
+--- /dev/null	(date 1751694543706)
++++ b/src/model/product.model.ts	(date 1751694543706)
+@@ -0,0 +1,7 @@
++export interface Product {
++    id: number;
++    name: string;
++    price: number;
++    currency: string;
++    image: string;
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5f4f5019-a27b-4768-b1d0-435404d959f3\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"TypeScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Shachiru&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Shachiru/tech-store-backend.git&quot;,\r\n    &quot;accountId&quot;: &quot;24faeea7-2325-4e5d-8d99-76113b252f25&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2z84DhNzhvAIqY88fUKA69YLOlU\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;Node.js.index.ts.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/GDSE-Modules/Advanced API Development/GitClones&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;npm.dev.executor&quot;: &quot;Run&quot;,\r\n    &quot;ts.external.directory.path&quot;: &quot;D:\\\\GDSE-Modules\\\\Rapid Application Development\\\\tech-store-backend\\\\node_modules\\\\typescript\\\\lib&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\GDSE-Modules\\Rapid Application Development\\tech-store-backend\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"dev\" type=\"js.build_tools.npm\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"dev\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5f4f5019-a27b-4768-b1d0-435404d959f3\" name=\"Changes\" comment=\"\" />\r\n      <created>1751099251118</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1751099251118</updated>\r\n      <workItem from=\"1751099252284\" duration=\"6833000\" />\r\n      <workItem from=\"1751106248914\" duration=\"198000\" />\r\n      <workItem from=\"1751106489202\" duration=\"2248000\" />\r\n      <workItem from=\"1751685520771\" duration=\"274000\" />\r\n      <workItem from=\"1751685848877\" duration=\"3650000\" />\r\n      <workItem from=\"1751689568912\" duration=\"348000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 53bb6f8ac1ae3203e94a40750b1c3f148e2d2415)
++++ b/.idea/workspace.xml	(date 1751694544105)
+@@ -4,7 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="" />
++    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="product controller and routes package implements">
++      <change afterPath="$PROJECT_DIR$/src/db/db.ts" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/model/product.model.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -40,24 +44,26 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;Node.js.index.ts.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;D:/GDSE-Modules/Advanced API Development/GitClones&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+-    &quot;ts.external.directory.path&quot;: &quot;D:\\GDSE-Modules\\Rapid Application Development\\tech-store-backend\\node_modules\\typescript\\lib&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "Node.js.index.ts.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "main",
++    "ignore.virus.scanning.warn.message": "true",
++    "junie.onboarding.icon.badge.shown": "true",
++    "last_opened_file_path": "D:/GDSE-Modules/Advanced API Development/GitClones",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "npm.dev.executor": "Run",
++    "ts.external.directory.path": "D:\\GDSE-Modules\\Rapid Application Development\\tech-store-backend\\node_modules\\typescript\\lib",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="D:\GDSE-Modules\Rapid Application Development\tech-store-backend\src" />
+@@ -96,10 +102,24 @@
+       <workItem from="1751685520771" duration="274000" />
+       <workItem from="1751685848877" duration="3650000" />
+       <workItem from="1751689568912" duration="348000" />
++      <workItem from="1751689940658" duration="4070000" />
++    </task>
++    <task id="LOCAL-00001" summary="product controller and routes package implements">
++      <option name="closed" value="true" />
++      <created>1751693866625</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1751693866625</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="product controller and routes package implements" />
++    <option name="LAST_COMMIT_MESSAGE" value="product controller and routes package implements" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: src/db/db.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/db/db.ts b/src/db/db.ts
+new file mode 100644
+--- /dev/null	(date 1751694543724)
++++ b/src/db/db.ts	(date 1751694543724)
+@@ -0,0 +1,3 @@
++import {Product} from "../model/product.model";
++
++const productList: Product[] = [];
+\ No newline at end of file
