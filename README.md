@@ -107,6 +107,9 @@ tech-store-backend/
 
 ## 🌐 API Endpoints
 
+## API Documentation
+- **Postman Collection**: [TechStore-backend API Collection](./Tech-Store-Backend.postman_collection.json)
+
 ### Base URL
 ```
 http://localhost:3000
