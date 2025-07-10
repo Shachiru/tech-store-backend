@@ -34,3 +34,9 @@ export const deleteContact = (id: number) => {
     }
 }
 
+export const validateContact = (contact: Contact) => {
+    if (!contact.id || !contact.name || !contact.email || !contact.subject || !contact.message){
+        return "All fields are required";
+    }
+    return null;
+}

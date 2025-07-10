@@ -14,6 +14,11 @@ export const getAllContacts = (req:Request, res:Response) => {
 export const saveContact = (req:Request, res:Response) => {
     try {
         const newContact = req.body;
+        const validationError = contactService.validateContact(newContact);
+        if (validationError) {
+            res.status(400).json({error: validationError});
+            return;
+        }
         const savedContact = contactService.saveContact(newContact);
         res.status(201).json(savedContact);    // set status code to 201 Created
     } catch (error) {
