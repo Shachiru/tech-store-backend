@@ -112,86 +112,51 @@ tech-store-backend/
 http://localhost:3000
 ```
 
-### Current Endpoints
+### Products API
+- `GET /api/products/all` - Get all products
+- `POST /api/products/save` - Create a new product
+- `GET /api/products/:id` - Get a specific product by ID
+- `PUT /api/products/update/:id` - Update a product
+- `DELETE /api/products/delete/:id` - Delete a product
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/` | Health check endpoint |
+### Contact API
+- `GET /api/contact/all` - Get all contacts
+- `POST /api/contact/save` - Create a new contact
+- `GET /api/contact/:id` - Get a specific contact by ID
+- `PUT /api/contact/update/:id` - Update a contact
+- `DELETE /api/contact/delete/:id` - Delete a contact
 
 ## 🏗️ Architecture
 
-### App Configuration (`src/app.ts`)
-- Express application setup
-- Middleware configuration
-- JSON parsing middleware
-- Route definitions
+The project follows a clean architecture pattern with:
 
-### Entry Point (`src/index.ts`)
-- Environment configuration loading
-- Server startup
-- Port configuration
+- **Controllers**: Handle HTTP requests and responses
+- **Services**: Business logic layer
+- **Models**: Data structure definitions
+- **Routes**: API endpoint definitions
+- **Database**: In-memory data storage (for development)
 
 ## 🔧 Development
 
-### Code Style
-- TypeScript with strict type checking
-- ES6+ features
-- Modular imports/exports
+The application uses TypeScript with Express.js and includes:
+- CORS configuration for frontend integration
+- Modular route handling
+- Type-safe data models
+- Error handling middleware
+- Development hot reload
 
-### Development Workflow
-1. Make changes to TypeScript files in `src/`
-2. Nodemon automatically restarts the server
-3. Test your changes at `http://localhost:3000`
+## 📝 License
 
-### Building for Production
-```bash
-npm run build
-```
-This compiles TypeScript files to JavaScript in the `dist/` directory.
-
-## 📝 Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `PORT` | Server port number | `3000` |
-| `NODE_ENV` | Environment mode | `development` |
+This project is licensed under the ISC License.
 
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## 📧 Contact
 
-This project is licensed under the ISC License.
-
-## 👤 Author
-
-**Shachiru**
-- GitHub: [@Shachiru](https://github.com/Shachiru)
-
-## 🚀 Future Enhancements
-
-- [ ] Database integration (MongoDB/PostgreSQL)
-- [ ] User authentication & authorization
-- [ ] Product management endpoints
-- [ ] Order processing system
-- [ ] Payment integration
-- [ ] API documentation with Swagger
-- [ ] Unit and integration tests
-- [ ] Docker containerization
-- [ ] CI/CD pipeline
-
-## 📞 Support
-
-If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/Shachiru/tech-store-backend/issues) page
-2. Create a new issue with detailed information
-3. Reach out to the maintainer
-
----
-
-⭐ **Star this repository if you find it helpful!**
+For any questions or suggestions, please feel free to reach out!
