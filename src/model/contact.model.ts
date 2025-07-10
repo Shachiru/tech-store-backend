@@ -5,6 +5,4 @@ export interface Contact {
     phone?: string;
     subject: string;
     message: string;
-    createdAt: Date;
-    status: 'pending' | 'resolved' | 'closed';
 }
