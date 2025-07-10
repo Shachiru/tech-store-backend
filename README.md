@@ -107,7 +107,7 @@ tech-store-backend/
 
 ## 🌐 API Endpoints
 
-## API Documentation
+### API Documentation
 - **Postman Collection**: [TechStore-backend API Collection](./Tech-Store-Backend.postman_collection.json)
 
 ### Base URL
