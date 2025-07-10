@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="export the delete function">
+    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="add cors origin">
+      <change afterPath="$PROJECT_DIR$/src/controllers/contact.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/contact.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contact.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/product.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/db.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +107,8 @@
       <workItem from="1751685520771" duration="274000" />
       <workItem from="1751685848877" duration="3650000" />
       <workItem from="1751689568912" duration="348000" />
-      <workItem from="1751689940658" duration="10851000" />
+      <workItem from="1751689940658" duration="16668000" />
+      <workItem from="1752145323510" duration="3356000" />
     </task>
     <task id="LOCAL-00001" summary="product controller and routes package implements">
       <option name="closed" value="true" />
@@ -128,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751696784997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="crud operation finished">
+      <option name="closed" value="true" />
+      <created>1751708539237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751708539237</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add cors origin">
+      <option name="closed" value="true" />
+      <created>1751715107766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751715107766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +160,8 @@
     <MESSAGE value="product controller and routes package implements" />
     <MESSAGE value="product service package implement , crud" />
     <MESSAGE value="export the delete function" />
-    <option name="LAST_COMMIT_MESSAGE" value="export the delete function" />
+    <MESSAGE value="crud operation finished" />
+    <MESSAGE value="add cors origin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cors origin" />
   </component>
 </project>
