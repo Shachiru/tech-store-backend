@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="postman requests json file added">
+    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="pass the parameters">
+      <change afterPath="$PROJECT_DIR$/src/db/DBConnection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/product.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/contact.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/contact.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/product.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/product.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/product.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contact.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/product.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +121,8 @@
       <workItem from="1752171914627" duration="1646000" />
       <workItem from="1752243424930" duration="1257000" />
       <workItem from="1752250811443" duration="1389000" />
-      <workItem from="1752289695555" duration="342000" />
+      <workItem from="1752289695555" duration="4055000" />
+      <workItem from="1752294505344" duration="12443000" />
     </task>
     <task id="LOCAL-00001" summary="product controller and routes package implements">
       <option name="closed" value="true" />
@@ -181,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752168792384</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pass the parameters">
+      <option name="closed" value="true" />
+      <created>1752290937194</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752290937194</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +220,7 @@
     <MESSAGE value="save contact and get contact id function as worked" />
     <MESSAGE value="validation added" />
     <MESSAGE value="postman requests json file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="postman requests json file added" />
+    <MESSAGE value="pass the parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="pass the parameters" />
   </component>
 </project>

@@ -1,7 +1,8 @@
 import express, {Express, Request, Response} from "express";
 import productRoutes from "./routes/product.routes"
-import contactRoutes from "./routes/contact.routes"
+// import contactRoutes from "./routes/contact.routes"
 import cors from "cors";
+import contactRoutes from "./routes/contact.routes";
 
 // 1. Initialize the express app
 const app: Express = express();
