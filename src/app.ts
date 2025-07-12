@@ -26,7 +26,7 @@ const corsOptions = {
     }
 }
 
-app.use(cors());    // Enable/Allow CORS
+app.use(cors(corsOptions));    // Enable/Allow CORS
 
 app.use("/api/products", productRoutes)
 app.use("/api/contact", contactRoutes)
