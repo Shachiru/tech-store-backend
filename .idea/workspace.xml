@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="mongoDB configure">
-      <change afterPath="$PROJECT_DIR$/src/controllers/auth.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/user.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/auth.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_5_2025_11_20_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_5_2025_11_20_AM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="added jwt authentication">
+      <change afterPath="$PROJECT_DIR$/src/middleware/auth.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-store-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-store-backend.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -43,6 +38,10 @@
     &quot;url&quot;: &quot;https://github.com/Shachiru/tech-store-backend.git&quot;,
     &quot;accountId&quot;: &quot;24faeea7-2325-4e5d-8d99-76113b252f25&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -119,7 +118,14 @@
       <workItem from="1752250811443" duration="1389000" />
       <workItem from="1752289695555" duration="4055000" />
       <workItem from="1752294505344" duration="18174000" />
-      <workItem from="1752377581193" duration="1015000" />
+      <workItem from="1752377581193" duration="1298000" />
+      <workItem from="1752732311142" duration="2808000" />
+      <workItem from="1752745196841" duration="5681000" />
+      <workItem from="1752756872937" duration="3595000" />
+      <workItem from="1752813826754" duration="88000" />
+      <workItem from="1752813940551" duration="5490000" />
+      <workItem from="1752829817981" duration="4151000" />
+      <workItem from="1752894411339" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="product controller and routes package implements">
       <option name="closed" value="true" />
@@ -209,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752313748990</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added jwt authentication">
+      <option name="closed" value="true" />
+      <created>1752378863032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752378863032</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +241,7 @@
     <MESSAGE value="postman requests json file added" />
     <MESSAGE value="pass the parameters" />
     <MESSAGE value="mongoDB configure" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongoDB configure" />
+    <MESSAGE value="added jwt authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="added jwt authentication" />
   </component>
 </project>
