@@ -26,3 +26,19 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
         next();
     });
 }
+
+// Middleware to check if the user has the required role (ADMIN or CUSTOMER)
+export const authorizeRoles = (...roles: string[]) => {
+    return (req: Request, res: Response, next: NextFunction) => {
+        const user = (req as Request & { user?: any }).user;
+
+        // check if the user is authenticated and has the required role
+        if (!user || !roles.includes(user.role)) {
+            res.status(403).json({    // 403 - unauthorized
+                error: 'Access denied! User does not have permission to perform this operation.'
+            });
+            return;    // exit the middleware / break the flow
+        }
+        next();
+    }
+}
