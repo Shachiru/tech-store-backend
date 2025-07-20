@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="authorize product save part">
+    <list default="true" id="5f4f5019-a27b-4768-b1d0-435404d959f3" name="Changes" comment="authorization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleware/auth.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/auth.middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/product.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/product.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,8 @@
       <workItem from="1752813826754" duration="88000" />
       <workItem from="1752813940551" duration="5490000" />
       <workItem from="1752829817981" duration="4151000" />
-      <workItem from="1752894411339" duration="7230000" />
+      <workItem from="1752894411339" duration="7369000" />
+      <workItem from="1752918841429" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="product controller and routes package implements">
       <option name="closed" value="true" />
@@ -230,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752897213797</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="authorization">
+      <option name="closed" value="true" />
+      <created>1752912877212</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752912877212</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +256,7 @@
     <MESSAGE value="mongoDB configure" />
     <MESSAGE value="added jwt authentication" />
     <MESSAGE value="authorize product save part" />
-    <option name="LAST_COMMIT_MESSAGE" value="authorize product save part" />
+    <MESSAGE value="authorization" />
+    <option name="LAST_COMMIT_MESSAGE" value="authorization" />
   </component>
 </project>
